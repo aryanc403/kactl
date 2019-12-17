@@ -25,7 +25,7 @@ template<int M> vl convMod(const vl &a, const vl &b) {
 	rep(i,0,n) {
 		int j = -i & (n - 1);
 		outl[j] = (L[i] + conj(L[j])) * R[i] / (2.0 * n);
-		outs[j] = (L[i] - conj(L[j])) * R[i] / (2.0 * n) / 1i;
+		outs[j] = (L[i] - conj(L[j])) * R[i] / (2.0 * n) / C(1.0i);
 	}
 	fft(outl), fft(outs);
 	rep(i,0,sz(res)) {

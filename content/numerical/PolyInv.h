@@ -1,3 +1,8 @@
+/**
+ * Author: Chandnani
+ * Description: Find inverse of polynomial h(x) mod $x^{ll}$.
+ * Time: O(nlogn)
+ */
 vl inv(vl& h,int ll){
     assert((ll&(ll-1))==0);
     if(sz(h)<ll) h.resize(ll,0);

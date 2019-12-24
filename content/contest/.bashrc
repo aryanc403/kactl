@@ -1,3 +1,4 @@
-alias c='g++ -Wall -Wconversion -Wfatal-errors -g -std=c++14 \
-	-fsanitize=undefined,address'
-xmodmap -e 'clear lock' -e 'keycode 66=less greater' #caps = <>
+#!/bin/zsh
+file=${1:-a.cpp}
+g++ -D ARYANC403=1 ${file} -o ${file}.out -fsanitize=address,undefined,signed-integer-overflow -Wall -std=gnu++17 && time ./${file}.out ${2}
+g++ ${file} -o ${file}.out -std=gnu++14 && time ./${file}.out ${2}

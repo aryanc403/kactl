@@ -2,3 +2,7 @@
 a.out
 header.tmp
 .vscode
+content/kactl.aux
+content/kactl.fdb_latexmk
+content/kactl.fls
+content/kactl.log

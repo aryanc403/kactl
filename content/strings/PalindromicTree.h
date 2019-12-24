@@ -1,3 +1,10 @@
+/**
+ * Author: Abhay Pratap Singh
+ * License: CC0
+ * Description: Finds all disctint palindromic substrings. T.display(s) prints all substrings.
+ * Time: O(n)
+ * Status: Used in contest
+ */
 struct palindromic_tree {
   vector<vector<int>> next;
   vector<int> suf, len;
@@ -52,11 +59,4 @@ struct palindromic_tree {
     rec(0); rec(1);
   }
 };
-char s[100000];
-int main() {
-  int k; 
-  cin>>k>>s;
-  palindromic_tree T(s);
-  T.display();
-}
 

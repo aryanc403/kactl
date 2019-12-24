@@ -1,15 +1,15 @@
-- Debug
-- Compilation command
-- Blossom matching
-- Palindromic tree
+- Debug                           => Done
+- Compilation command             => Done
+- Blossom matching                => Not included for now
+- Palindromic tree                => Done
 - Centroid decomposition
-- Polygon diameter
+- Polygon diameter                => Done
 - polynomial inverse
-- Remove Euclid.java pg8
+- Remove Euclid.java pg8          => Done
 - Derangement.h
 - Matroid intersection
-- General purpose numbers extra
-- Faulhaber number
+- General purpose numbers extra   => Not included for now
+- Faulhaber number                => Done
 - bridgeTree
 - FFT with bitwise ops
 - 

@@ -1,5 +1,8 @@
-/*Description: It computes sum_{i=1}^{i=n}i^p in O(p).
-  It assumes C[n][k], inv[n] and pow(a, x)(a^x % mod) are defined.
+/**
+ * Author: Chandnani
+ * Description: It computes $ \sum_{i = 1}^{i = n}i^p $
+ * It assumes C[n][k], inv[n] and pow(a, x)($a^x$ \% mod) are defined.
+ * Time: O(p)
  */
 void pre(){
   B[0] = 1;
@@ -9,8 +12,7 @@ void pre(){
       B[i]+=(C[i+1][k]*B[k])%mod;
     }
     B[i]%=mod;
-    B[i] = ((-B[i]*inv[i+1])%mod+mod)%
-      mod;
+    B[i] = ((-B[i]*inv[i+1])%mod+mod)%mod;
   }
 }
 ll Faul(ll n,int p){
@@ -21,6 +23,5 @@ ll Faul(ll n,int p){
     if(i==p) ans-=cur;
     else ans+=cur;
   }
-  return ((ans%mod+mod)%mod)*modpow(p+1,
-      mod-2)%mod;
+  return ((ans%mod+mod)%mod)*modpow(p+1,mod-2)%mod;
 }

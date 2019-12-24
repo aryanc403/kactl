@@ -1,5 +1,7 @@
-/*Description: It transform P for xor conv.
-  Assumes P has 2^{n} coeff.
+/**
+ * Author: abhayps
+ * Description: It transform P for xor conv.
+ * Assumes P has $2^n$ coeff.
 */
 vll FWHT(vll P, bool inverse) {
     for (len = 1; 2 * len <= degree(P); len <<= 1) {

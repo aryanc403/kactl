@@ -2,7 +2,7 @@
 - Compilation command             => Done
 - Blossom matching                => Not included for now
 - Palindromic tree                => Done
-- Centroid decomposition
+- Centroid decomposition          => Done
 - Polygon diameter                => Done
 - polynomial inverse              => Done
 - Remove Euclid.java pg8          => Done
@@ -22,9 +22,9 @@
 Doubt- 
 - GaussElim (in chandnani)
 - Chandnani ke NTT main ek extra function 
-- CHandnani ka CRT alag hai (includes a chinese_common for non-coprime n,m)
-- Remove factorial values pg 10
-- Twelveway combinatorics
+- CHandnani ka CRT alag hai (includes a chinese_common for non-coprime n,m) => Not doing, can be done manually
+- Remove factorial values pg 10     => Done
+- Twelveway combinatorics           => Done
 - HLD
 - 
 

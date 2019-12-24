@@ -1,8 +1,9 @@
-/*Description:
-  It finds the centroid tree for given tree.
-  par[x] denotes centroid parent of x.
-  Initialize global variables correctly before using.
-  */
+/**
+ * Author: abhayps
+ * Description: It finds the centroid tree for given tree.
+ * par[x] denotes centroid parent of x.
+ * Initialize global variables correctly before using.
+*/
 vector<int> adj[maxN+1];
 vi sz, par;
 vector<bool> block;

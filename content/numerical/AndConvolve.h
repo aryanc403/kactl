@@ -1,5 +1,7 @@
-/*Description: It transforms P for and conv.
- P is assumed to have 2^{n} coefficients.
+/**
+ * Author: abhayps
+ * Description: It transform P for and conv.
+ * Assumes P has $2^n$ coeff.
 */
 vll transform(vll P, bool inverse) {
     for (len = 1; 2 * len <= degree(P); len <<= 1) {

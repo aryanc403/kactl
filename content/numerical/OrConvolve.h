@@ -1,4 +1,4 @@
-/*
- Matrix = [1 1
-           1 0]
+/**
+ * Author: abhayps
+ * Description: Matrix = [[1 1],[1 0]]
  */

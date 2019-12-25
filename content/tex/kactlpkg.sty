@@ -151,9 +151,9 @@
 
 % Styles for main toc
 \renewcommand{\chaptermark}[1]{\markboth{\emph{ #1}}{}}
-\renewcommand{\cftbeforetoctitleskip}{-50pt}
-\renewcommand{\cftaftertoctitleskip}{10pt}
-\renewcommand{\cftbeforechapskip}{10pt}
+\renewcommand{\cftbeforetoctitleskip}{0pt}
+\renewcommand{\cftaftertoctitleskip}{0pt}
+\renewcommand{\cftbeforechapskip}{0pt}
 \renewcommand{\cftdotsep}{4.5}
 
 % Proper carets and tildes
@@ -178,14 +178,14 @@
 \lstset{tabsize=2}
 \lstset{showstringspaces=false}
 \lstset{breaklines=true}
-\lstset{basicstyle=\scriptsize\ttfamily}
-\lstset{commentstyle=\normalfont\itshape}
+\lstset{basicstyle=\linespread{0.1}\ttfamily}
+\lstset{commentstyle=\small}
 \lstset{literate={^}{\caret}{1}}
 \lstset{literate={~}{\tilde}{1}}
 \lstset{emptylines=*1}
 \lstset{inputencoding=utf8}
-\lstset{aboveskip=3pt}
-\lstset{belowskip=2pt}
+\lstset{aboveskip=1pt}
+\lstset{belowskip=0pt}
 
 \lstdefinelanguage{raw}{} % Raw language, no keywords.
 

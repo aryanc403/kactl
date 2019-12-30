@@ -1,5 +1,7 @@
-/*
+/**
+ * Author: abhayps
  * Description: forms dag on states/can do dp.
+ * Time: O(n)
  */
 struct state {
     int len, link;
